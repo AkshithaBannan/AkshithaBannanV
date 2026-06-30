@@ -6,7 +6,7 @@
 
 # 👋Hi! I'm Akshitha Bannan, welcome to my profile!
 
-### AI/ML Engineer • Data Systems Builder
+### AI/ML Engineer • Data Scientist
 
 I build intelligent systems using **LLMs, RAG pipelines, and Machine Learning** to solve real-world business problems.
 
