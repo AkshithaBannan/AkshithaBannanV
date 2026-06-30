@@ -1,5 +1,8 @@
-# AkshithaBannanV
 <div align="center">
+
+<img src="assets/banner.svg" width="100%"/>
+
+</div>
 
 # 👋Hi! I'm Akshitha Bannan, welcome to my profile!
 
