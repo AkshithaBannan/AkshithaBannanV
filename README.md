@@ -79,3 +79,9 @@ Mobile-based assistant providing plant care recommendations using sensor-driven 
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+---
+
+## 🐍 Contribution Graph
+
+![snake animation](https://raw.githubusercontent.com/AkshithaBannan/AkshithaBannan/main/dist/snake.svg)
