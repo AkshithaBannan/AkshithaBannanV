@@ -57,6 +57,7 @@ Interactive dashboards for KPI tracking, reporting automation, and business insi
 Mobile-based assistant providing plant care recommendations using sensor-driven logic.
 
 **Stack:** Figma, Lucid chart
+
 ---
 
 ## ⚙️ Tech Stack
