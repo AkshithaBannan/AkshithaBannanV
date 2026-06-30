@@ -1,26 +1,68 @@
-<svg width="1000" height="300" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="240" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg">
 
   <defs>
-    <linearGradient id="bg" x1="0" x2="1">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="50%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#0b1220"/>
+
+    <!-- Strong but professional animated gradient -->
+    <linearGradient id="anim" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color"
+          values="#38bdf8;#6366f1;#a855f7;#ec4899;#22d3ee;#38bdf8"
+          dur="6s"
+          repeatCount="indefinite"/>
+      </stop>
+
+      <stop offset="100%" stop-color="#6366f1">
+        <animate attributeName="stop-color"
+          values="#6366f1;#a855f7;#ec4899;#22d3ee;#38bdf8;#6366f1"
+          dur="6s"
+          repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
 
-    <linearGradient id="text" x1="0" x2="1">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#a78bfa"/>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#020617"/>
     </linearGradient>
 
   </defs>
 
+  <!-- background -->
   <rect width="100%" height="100%" fill="url(#bg)"/>
 
-  <text x="50%" y="35%" text-anchor="middle"
-        fill="url(#text)" font-size="48" font-family="Helvetica"
-        font-weight="bold">
+  <!-- subtle grid -->
+  <g stroke="#1f2937" stroke-width="0.6" opacity="0.25">
+    <path d="M0 60 H900 M0 120 H900 M0 180 H900"/>
+    <path d="M150 0 V240 M300 0 V240 M450 0 V240 M600 0 V240 M750 0 V240"/>
+  </g>
+
+  <!-- Name -->
+  <text x="50%" y="42%" text-anchor="middle"
+        fill="url(#anim)"
+        font-size="44"
+        font-family="Inter, Arial, sans-serif"
+        font-weight="700">
     Akshitha Bannan
   </text>
+
+  <!-- Role -->
+  <text x="50%" y="60%" text-anchor="middle"
+        fill="#cbd5e1"
+        font-size="20"
+        font-family="Inter, Arial, sans-serif">
+    AI/ML Engineer • Data Scientist • Product-based
+  </text>
+
+  <!-- Tagline -->
+  <text x="50%" y="80%" text-anchor="middle"
+        fill="#94a3b8"
+        font-size="15"
+        font-family="Inter, Arial, sans-serif"
+        font-style="italic">
+    Building intelligence that evolves in silence.
+  </text>
+
+</svg>
 
   <text x="50%" y="55%" text-anchor="middle"
         fill="#cbd5e1" font-size="30">
